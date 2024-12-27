@@ -22,7 +22,7 @@ jobs:
           CORE_HOURS_START: "9:00"
           CORE_HOURS_END: "19:30"
           REPORT_DATE_START: "27/12/2024"
-          REPORT_DATE_END: "27/12/2024"
+          REPORT_DATE_END: "28/12/2024"
           TIMEZONE: "Europe/Berlin"
           PERIOD_SPLIT_UNIT: "none"
           EXECUTION_OUTCOME: "collection"
