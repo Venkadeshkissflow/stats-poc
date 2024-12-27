@@ -11,12 +11,9 @@ jobs:
   analytics:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
       - name: Run Pull Request Analytics Action
         id: pr-analytics
-        uses: repo/pull-request-analytics-action@v1
+        uses: AlexSim93/pull-request-analytics-action@v4
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         with:
